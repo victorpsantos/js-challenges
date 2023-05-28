@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build or compiled files
+dist/
+build/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn.lock for yarn
+yarn.lock
+
+# Ignore any other temporary or generated files
+*.tmp
+*.temp
+*.bak
